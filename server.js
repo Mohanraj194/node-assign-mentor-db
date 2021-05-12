@@ -42,7 +42,7 @@ app.post("/add-a-student", async(req, res)=>{
         })
     }
 });
-//insertMany
+
 app.post("/add-a-mentor", async(req, res)=>{
     try{
         let client = await mongoClient.connect(mongourl)
